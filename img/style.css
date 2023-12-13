@@ -1,0 +1,199 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color:black;
+  background-color: #cda64e;
+}
+
+.header {
+  color:orange;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  color: white;
+  padding: 12px 19px 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo img {
+  width: 52px;
+  height: 52px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.home h1 {
+  margin: 0!important;
+  text-align: center;
+  padding: 20px;
+  font-weight: 800;
+}
+.home .my_photo{
+  text-align: center;
+}
+.home img {
+  width: 300px;
+}
+.home p {
+  margin: 0 0 10px;
+  text-align: center;
+}
+.about {
+  background: #CDA64E;
+}
+.about h2{
+  margin: 0!important;
+  padding: 20px 20px 20px 39px;
+}
+.about p {
+  padding: 0px 0px 10px 20px;
+  font-size: 16px;
+}
+.projects {
+  background: #CDA64E;
+}
+.projects h2{
+  margin: 0!important;
+  padding: 20px 20px 20px 39px;
+}
+.projects .project-1{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.projects .project-1 img{
+width: 280px;
+height: 250px;
+}
+.projects .project-2{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.projects .project-2 img{
+width: 280px;
+height: 250px;
+}
+.projects .project-3{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.projects .project-3 img{
+width: 280px;
+height: 250px;
+}
+.projects .project-4{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.projects .project-4 img{
+width: 280px;
+height: 250px;
+}
+.projects a{
+  color: black!important;
+  
+}
+.skills {
+  padding: 20px 20px 20px 70px;  
+}
+.skills h2{
+  padding: 20px 20px 20px 39px;
+}
+  /* Contact */
+.contact-me-container {
+  padding: 3%;
+  background:#CDA64E;
+}
+.contact-me-container hr {
+  background-color: #EB7D1E;
+
+}
+
+.fa-user,
+.fa-at,
+.fa-phone {
+  color: black;
+}
+.contact-me-container a{
+  text-decoration: none;
+  color: black;
+}
+.submit-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ========================*/
+
+footer {
+  background-color: #cda64e;
+  padding: 10px;
+  text-align: center;
+  padding: 3%;
+}
+footer .container
+
+ a {
+  color: black!important;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #eb7d1e;
+      text-align: center;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+
+  .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .burger-menu {
+      display: block;
+  }
+}
