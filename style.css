@@ -93,37 +93,27 @@ nav {
   text-align: center;
   padding: 20px;
 }
-.projects .project-1 img{
-width: 280px;
-height: 250px;
+.projects img {
+  width: 90%;
 }
+
 .projects .project-2{
   margin: 0 auto;
   text-align: center;
   padding: 20px;
-}
-.projects .project-2 img{
-width: 280px;
-height: 250px;
 }
 .projects .project-3{
   margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
-.projects .project-3 img{
-width: 280px;
-height: 250px;
-}
+
 .projects .project-4{
   margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
-.projects .project-4 img{
-width: 280px;
-height: 250px;
-}
+
 .projects a{
   color: black!important;
   
@@ -172,6 +162,11 @@ footer .container
   color: black!important;
 }
 
+.row {
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
       display: none;
@@ -195,5 +190,16 @@ footer .container
 
   .burger-menu {
       display: block;
+  }
+}
+@media (min-width: 768px){
+.projects img {
+  width: 50%;
+}
+}
+
+@media (min-width: 1024px){
+  .projects img {
+    width: 80%;
   }
 }
